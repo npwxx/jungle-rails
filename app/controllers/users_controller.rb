@@ -12,7 +12,7 @@ class UsersController < ApplicationController
       #redirect after login
       redirect_to '/'
     else
-      redirect_to '/signup'
+      render :new
     end
   end
 
